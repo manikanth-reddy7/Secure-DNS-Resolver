@@ -1,0 +1,19 @@
+$ python3 mydig.py google.co.jp A
+['172.217.2.3']
+
+$ python3 mydig.py google.co.jp NS
+['ns4.google.com.', 'ns3.google.com.', 'ns1.google.com.', 'ns2.google.com.']
+
+$ python3 mydig.py google.co.jp MX
+['alt4.aspmx.l.google.com.', 'alt1.aspmx.l.google.com.', 'alt2.aspmx.l.google.com.', 'alt3.aspmx.l.google.com.', 'aspmx.l.google.com.']
+
+
+$ python3 mydig.py verisign.com A
+['72.13.63.55']
+
+$ python3 mydig.py verisign.com MX
+['mail3.verisign.com.', 'mail5.verisign.com.', 'mail1.verisign.com.', 'mail4.verisign.com.', 'mail6.verisign.com.', 'mail2.verisign.com.']
+
+$ python3 mydig.py verisign.com NS
+['av2.nstld.com.', 'av4.nstld.com.', 'av1.nstld.com.', 'av3.nstld.com.']
+
