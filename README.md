@@ -160,6 +160,7 @@ This will:
 
 ![Performance Analysis Plot](<img width="982" height="790" alt="Screenshot 2026-05-20 120548" src="https://github.com/user-attachments/assets/29fc7834-c99e-4d19-930a-93890c414718" />
 )
+<img width="982" height="790" alt="Screenshot 2026-05-20 120548" src="https://github.com/user-attachments/assets/0a251918-61a7-41c8-a8e4-4e28a64813c5" />
 
 *As the plot shows, `mydig` (the red line) takes around 0.2 to 1.6 seconds, making it much slower than the Local DNS Resolver and Google Public DNS. This result is perfectly correct and expected! The custom script starts from the root server for every domain, avoids using a cache, and iteratively resolves the query across global authoritative nameservers. Meanwhile, Google and Local DNS answer instantly from heavily optimized, nearby cache servers.*
 
